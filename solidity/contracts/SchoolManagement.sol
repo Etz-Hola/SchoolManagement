@@ -8,7 +8,7 @@ contract SchoolManagement {
         string name;
         bool isRegistered;
         uint256 registrationDate;
-    }
+    } 
     
     mapping(uint256 => Student) public students;
     uint256[] public studentIds;
